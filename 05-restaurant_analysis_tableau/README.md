@@ -60,3 +60,5 @@ The data was spread across five files:
 
   ## Results
   The analysis identified the most popular and profitable restaurants, highlighting key factors contributing to their success. Findings were summarized in an executive report, providing insights into top-performing restaurants and recommendations for future research.
+
+Please have a look at my Tableau workbook: https://public.tableau.com/views/RestaurantAnalysis_17185382314290/PDFStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link

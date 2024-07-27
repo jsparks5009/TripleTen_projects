@@ -46,4 +46,6 @@ I was familiar with the dataset, but I explored it once again, then loaded it to
 ## Results
 By utilizing various data visualizations, including scatter plots, interactive maps, line charts, bar charts, and heat maps, I effectively communicated my findings to the stakeholders. The presentation concluded with a comprehensive implementation plan.
 
-Please have a look at my Tableau workbook.
+Please have a look at my Tableau workbook. https://public.tableau.com/views/TTDashboardProject/SuperstoresStoryofReturnRates?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Please note that these are projects I created some time ago. While they may not reflect my current skill level, they demonstrate my proficiency in Tableau and data visualization techniques at that time.

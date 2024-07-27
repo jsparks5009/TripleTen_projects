@@ -95,4 +95,4 @@ First, I explored the dataset's sheets, cleaned the data, and created an assumpt
 ## Results
 I presented my research findings using bar charts and pivot tables, identifying the Manhattan neighborhoods with the highest potential for profitable investments.
 
-Please have a look at the spreadsheet included for a full description of the results.
+Please have a look at the spreadsheet included for a full description of the results. https://docs.google.com/spreadsheets/d/1J72s5ViuHjbGtrWPspd9Rjd_j7Zruu4IKgzTSZTstew/edit?usp=sharing

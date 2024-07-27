@@ -46,6 +46,6 @@ I first explored the dataset and then loaded it to Tableau and left-joined the `
 ## Results
 Through the use of different styles of bar charts and heat maps in Tableau, I was able to effectively communicate my findings to the stakeholders. 
 
-Please have a look at my Tableau workbook. https://public.tableau.com/views/TTProject_17132682180760/CustomersandReturnRate?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Please have a look at my Tableau workbook. (https://public.tableau.com/views/TTProject_17132682180760/ProfitandLossAnalysisforSub-categoryandRegion?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Please note that these are projects I created some time ago. While they may not reflect my current skill level, they demonstrate my proficiency in Tableau and data visualization techniques at that time.

@@ -2,7 +2,7 @@
 This is the 1st project I worked on in the TripleTen Business Intelligence Analytics program. I really enjoyed learning the ins and outs of spreadsheets.
 
 ## Potential Investment Properties in Manhattan
-The goal of the project was to clean the data and analyze the vacation rental market in the Manhattan borough of New York City, focusing on identifying the types of properties that should be targeted for investment. 
+This project involves analyzing the vacation rental market in the Manhattan borough of New York City using Airbnb data. The goal is to provide insights to a client interested in investing in vacation rental properties. The analysis covers data exploration, data cleaning, filtering listings, identifying popular neighborhoods and property sizes, calculating occupancy rates, and estimating potential revenue for investment properties.
 
 ### The Data
 The data was spread across two sheets:
@@ -90,9 +90,72 @@ The data was spread across two sheets:
 TripleTen provided the NYC Airbnb data set.
 
 ### The Process
-First, I explored the dataset's sheets, cleaned the data, and created an assumptions and change log. Finally, I analyzed the data using visualizations and pivot tables.
+#### Part 1: Data Exploration and Cleaning
+The initial phase involved downloading the NYC Airbnb dataset and examining its various sheets. Key columns were identified for analysis, and potential data cleaning challenges were noted. The data cleaning process included:
+- Freezing rows and columns for easier navigation.
+- Resizing columns and wrapping text.
+- Adding filters to the dataset.
+- Creating documentation tabs to keep a history of data cleaning steps.
+
+#### Part 2: Identifying Target Properties
+To focus the analysis on relavant listings, the following steps were taken:
+- Filtering out listings with a minimum night requirement greater than seven days, as the analysis focused on vacation rentals.
+- Removing listings with no reviews in the last 12 months, considering them inactive.
+- Cleaning neighborhood names to ensure consistency in text format.
+
+A pivot table was created to identify the top 10 neighborhoods based on the number of reviews in the last 12 months. Another pivot table was used to determine the most popular property sizes (number of bedrooms) in these neighborhoods. This analysis helped prioritize specific neighborhoods and property sizes for the client.
+
+#### Part 3: Calculating Occupancy Rates
+The calendar sheet provided data on listing's availability for 30 days. To calculate occupancy rates: 
+- The `'available'` column was converted into a numeric occupied column (1 for occupied, 0 for available).
+- A `'day_of_week'` column was added using the WEEKDAY() function to analyze occupancy trends by day.
+- A pivot table was created to calculate the average occupancy rate for each listing, which was used to determine the occupancy percentage.
+
+Additional analysis included creating a pivot table to show average occupancy rates by day of the week, providing insights into the most popular days for rentals. 
+
+#### Part 4: Estimating Revenue
+To estimate annual revenue for investment properties:
+- Properties were filtered to include only those representative of potential investments (e.g., actively rented properties, high review ratings, excluding super luxury or extremely low-priced listings).
+- A VLOOKUP() formula added the average occupancy rate to the listings sheet.
+- A pivot table calculated the average price and occupancy rate for the recommended neighborhood and property size.
+- Annual revenue was estimated using the formula: `Annual Revenue = 365 days * Average Price * Occupancy Rate`.
+
+#### Part 5: Analyzing Key Attributes:
+For top neighborhoods, additional insights were provided on attributes impacting property performance:
+- The impace of superhosts on pricing.
+- The effect of instant booking on occupancy rates.
+- The correlation between doorman presence and review scores.
+- The relationship between review ratings and pricing.
+
+#### Part 6: Documentation and Formatting
+The final stage involved organizing and formatting the spreadsheet to ensure it was polished and professional:
+- An Executive Summary sheet with an overview of recommendations and a Table of Contents.
+- Detailed documentation of data cleaning steps and assumptions made during the analysis.
+- Consistent formatting, including borders, cell background colors, font styles, and sizes, to enhance readability.
+- Hiding unnecessary columns to streamline the spreadsheet.
 
 ## Results
-I presented my research findings using bar charts and pivot tables, identifying the Manhattan neighborhoods with the highest potential for profitable investments.
+This comprehensive analysis provides the client with actionable insights into the Manhattan vacation rental market, helping them make informed investment decisions. 
+Below are the pivot tables demonstrating that 2-bedroom apartments in Hell's Kitchen, Manhattan, offer the best investment returns based on the Airbnb data.
 
 Please have a look at the spreadsheet included for a full description of the results. https://docs.google.com/spreadsheets/d/1J72s5ViuHjbGtrWPspd9Rjd_j7Zruu4IKgzTSZTstew/edit?usp=sharing
+
+![Top Ten Most Popular Neighborhoods for Vacation Rentals](https://github.com/user-attachments/assets/d17a4520-45e9-423f-971d-fded285df788)
+
+![Instant Booking](https://github.com/user-attachments/assets/457423f1-a86a-47f5-9d0a-4362f6005c49)
+
+![Histogram of Cost of Rental](https://github.com/user-attachments/assets/01426439-96ed-40f4-a414-912d0862e50d)
+
+![Day of the Week Percentage Occupied](https://github.com/user-attachments/assets/92fbb0e9-6e1c-4d6c-9b96-a430037a4592)
+
+![Bedrooms and Number of Reviews](https://github.com/user-attachments/assets/022f694a-33cd-4d16-b29f-b8bb8d60cf16)
+
+![Average Price Comparison Superhost](https://github.com/user-attachments/assets/6aa5d59f-6689-47e1-91eb-761c7a4071f2)
+
+![Average Price Comparison Building Staff](https://github.com/user-attachments/assets/249da703-7d69-44e9-b034-fbb7f11751e3)
+
+![Average Cost based on Reviews](https://github.com/user-attachments/assets/60f3f30a-1e8b-4f03-996d-1af173d9bfbe)
+
+![Average Cost and Occupancy Rate](https://github.com/user-attachments/assets/5e486565-bdf5-46cb-b953-804775ea2a21)
+
+![Highest Average Annual Revenue Estimate](https://github.com/user-attachments/assets/40839f58-678d-47cc-877b-37587ee0f836)

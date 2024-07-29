@@ -2,7 +2,7 @@
 This is the 2nd project I worked on in the TripleTen Business Intelligence Analytics program. It was my first time using Tableau.
 
 ## Superstore Analysis
-The goal of the projects was to use Tableau to identify key profit and loss centers, determine product focus areas, and evaluate the effectiveness and profitability of advertising strategies for the Superstore using data visualizations.
+This project aims to provide a comprehensive analysis of the superstore's performance to identify key areas for profit maximization and loss reduction. By examining various dimensions such as product subcategories, regions, and shipping modes, the project seeks to uncover the most significant profit centers and areas with the highest losses. Additionally, the project evaluates the potential effectiveness of targeted advertising and analyzes return rates to inform strategic business decisions. Through data-driven insights and visualizations, the goal is to recommend actionable strategies to enhance the superstore's overall profitability and efficiency.
 
 ### The Data
 The data was made up of one file, in three seperate sheets:
@@ -41,7 +41,70 @@ The data was made up of one file, in three seperate sheets:
 The dataset is provided by TripleTen.
 
 ### The Process
-I first explored the dataset and then loaded it to Tableau and left-joined the `'Orders'` and `'Returns'` sheets. Finally, I analyzed the data using visualizations. 
+#### Part 1: Profits & Losses
+1. Identify Profit and Loss Centers:
+  - Objective: Determine the key areas contributing to profits and losses within the superstore.
+  - Approach:
+    - Analyze combinations of dimensions such as subcategory + region and shipping mode + product ID.
+    - Use visualizations (e.g., bar charts, heat maps) to identify and justify the two largest profit centers and two largest loss-makers.
+  - Steps:
+    - Loaded and cleaned the dataset.
+    - Aggregated profit data by various dimension pairs.
+    - Visualized the data to highlight the most significant profit and loss centers.
+    - Interpreted the visualizations to identify actionable insights.
+2. Identify Products to Stop Selling:
+  - Objective: Determine which products are underperforming and should be discontinued.
+  - Approach:
+    - Created a visualization that shows profit margins for each product.
+    - Identified products with consistently low or negative profits.
+  - Steps:
+    - Aggregated profit data by product.
+    - Visualized the profit margins for each product.
+    - Highlighted and listed the products with the lowest profit margins.
+3. Focus and Stop Selling Subcategories:
+  - Objective: Recommend subcategories to focus on and to stop selling.
+  - Approach:
+    - Analyzed profit data by subcategory.
+    - Identified three subcategories with the highest profits and three with the lowest.
+  - Steps:
+    - Aggregated profit data by subcategory.
+    - Created visualizations to compare subcategory performance.
+    - Recommended three subcategories to focus on and three to discontinue.
+   
+#### Part 2: Advertising
+1. Evaluate Advertising Opportunities:
+  - Objective: Determine the best states and times of the year for advertising to maximize profit.
+  - Approach:
+    - Analyzed profit data by state and month.
+    - Identified three state-month combinations with the highest average profits.
+    - Visualized average profits by month for the top three states.
+  - Steps:
+    - Aggregated profit data by state and month.
+    - Created visualization to show average monthly profits for each state.
+    - Selected the top three state-month combinations based on profit data.
+    - Calculated the recommended advertising spend based on a 1/5 profit to ad spend ratio.
+
+#### Part 3: Returned Items
+1. Analyze Return Rates:
+  - Objective: Understand product and customer return behaviors.
+  - Approach:
+    - Integrated the Returns table with the Orders table using a LEFT JOIN.
+    - Created a calculated field to categorize returns (1 for YES, 0 for null).
+    - Visualized return rates by product and customer.
+  - Steps:
+    - Joined the Returns table with the Orders table.
+    - Created a calculated field for return status.
+    - Aggregated return data by product and customer.
+    - Visualized return rates to identify products and customers with the highest return rates.
+2. Profit vs. Return Rate Analysis:
+  - Objective: Evaluate the relationship between profit and return rates across various dimensions.
+  - Approach:
+    - Create visualizations comparing average profit and return rates by selected dimensions (e.g., state, shipping mode, product type).
+    - Provide a visual argument for retaining or discontinuing business practices based on these dimensions.
+  - Steps:
+    - Aggregated profit and return rate data by the chosen dimension.
+    - Created visualizations to show the relationship between profit and return rates.
+    - Interpreted the visualizations to make data-driven recommendations.
 
 ## Results
 Through the use of different styles of bar charts and heat maps in Tableau, I was able to effectively communicate my findings to the stakeholders. 

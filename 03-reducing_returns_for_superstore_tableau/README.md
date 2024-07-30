@@ -41,7 +41,26 @@ The data was made up of one file, in three seperate sheets:
 The dataset is provided by TripleTen.
 
 ### The Process
-I was familiar with the dataset, but I explored it once again, then loaded it to Tableau and left-joined the `'Orders'` and `'Returns'` sheets. Finally, I analyzed the data using visualizations and outlined and created dashboards. 
+#### 1. What was the cause of returns?
+- Objective: To identify the causes of high return rates at the Superstore.
+- Approach:
+  - Utilized the `Superstore.xls` dataset to join the `Returns` and `Orders` tables.
+  - Created calculated fields to accurately measure return rates.
+  - Developed various visualizations, including scatterplots, bar charts, maps, and composite charts.
+- Steps:
+  - 1. Data Preparation and Joining
+    - Ensured the `Returns` table is LEFT JOINED onto the `Orders` table to view both "Yes" and "null" values in the `Returned` column.
+    - Created calculated fields for the `Returned` column where null values are assigned 0 and "Yes" values are assigned 1. This calculated field's average represents the return rate.
+      - `'Returned Values'` = `IF ISNULL([Returned]) THEN 0 ELSEIF [Returned] = "Yes" THEN 1 ELSE 0 END`
+      - `'Return Rate'` = `AVG([Returned Values])`
+  - 2. Analysis Worksheets
+    - Scatterplot: Built a scatterplot showing the correlation between total sales and total returns, aggregated by product subcategory.
+    - Bar Chart: Created a bar chart to display the return rate by product category, highlighting which categories have higher return rates.
+    - Customer Return Rate: Developed a view showing the return rate by customer, applying a filter to exclude customers with only one order to identify those more prone to making returns.
+    - Geographic Analysis: Constructed a map illustrating the return rate by geographic measure (state), revealing any concentration of returns.
+    - Temporal Analysis: Created a line chart showing the return rate over time (month) to identify any seasonal effects on returns.
+    - Heat Map: Developed a heat map displaying return rates by sub-category and region to identify trends and patterns in return behavior.
+    - Bubble Chart: Developed a bubble chart displaying regional return rates vs. profit to highlight whether or not a higher return rate correlates with profits.
 
 ## Results
 By utilizing various data visualizations, including scatter plots, interactive maps, line charts, bar charts, and heat maps, I effectively communicated my findings to the stakeholders. The presentation concluded with a comprehensive implementation plan.

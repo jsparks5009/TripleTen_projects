@@ -2,7 +2,7 @@
 This is the 3rd project I worked on in the TripleTen Business Intelligence Analytics program. It was my first dashboard project in Tableau.
 
 ## Superstore Analysis
-The goal of the project was to use Tableau to identify and analyze reasons for returns, organize the different sheets and findings into dashboards, and to propose solutions to reduce the frequency of returns.
+In this project, I conducted an in-depth analysis of the high number of returned orders at a Superstore to assist the CEO in understanding and reducing return rates. Using the `Superstore.xls` dataset, I joined the `Returns` and `Orders` tables and created various calculated fields to accurately measure return rates. I developed multiple visualizations, including scatterplots, bar charts, maps, and composite charts, to identify patterns and root causes of returns across different dimensions such as product category, customer behavior, geography, and time. The insights gained from this analysis were compiled into a comprehensive Tableau Story, which was presented in a PDF report.
 
 ### The Data
 The data was made up of one file, in three seperate sheets:

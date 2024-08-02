@@ -60,10 +60,39 @@ The dataset is provided by TripleTen.
     - Geographic Analysis: Constructed a map illustrating the return rate by geographic measure (state), revealing any concentration of returns.
     - Temporal Analysis: Created a line chart showing the return rate over time (month) to identify any seasonal effects on returns.
     - Heat Map: Developed a heat map displaying return rates by sub-category and region to identify trends and patterns in return behavior.
-    - Bubble Chart: Developed a bubble chart displaying regional return rates vs. profit to highlight whether or not a higher return rate correlates with profits.
+    - Bubble Chart: Created a bubble chart comparing regional return rates with profit to assess whether a higher return rate correlates with increased or decreased profitability.
+    - Dashboards: Constructed dashboards in a presentation style to create compelling slides and save a completed version of the Tableau Story.
 
-## Results
-By utilizing various data visualizations, including scatter plots, interactive maps, line charts, bar charts, and heat maps, I effectively communicated my findings to the stakeholders. The presentation concluded with a comprehensive implementation plan.
+#### 2. Presenting my Analysis
+- Story Arc Construction:
+  - Objective: Create a draft of the story using captions for each story point, including:
+    - A summary of the returns analysis.
+    - A discussion on the best measures for returns and when each measure is appropriate.
+    - Identification of key root causes of returns.
+    - An overview of each dashboard component, explaining the contents and interpretation of each chart.
+    - A demonstration of how to use the dashboard, including interpreting data and using filters to identify root causes.
+    - Propose actions based on dashboard insights and a conclusion with next steps, such as implementing the dashboard.
+
+## Results: The PDF Presentation
+![1](https://github.com/user-attachments/assets/0e5575ce-c60b-494c-9fce-d74cc157bbab)
+![2](https://github.com/user-attachments/assets/0b8a7589-9cf6-4b27-9133-d29d941fa26b)
+![3](https://github.com/user-attachments/assets/0dc5c02e-632e-4416-84f3-43741697504f)
+![4](https://github.com/user-attachments/assets/93ae2fe4-6edf-4c40-ae70-fca3dd07625d)
+![5](https://github.com/user-attachments/assets/b09624bb-24bf-44b7-a24a-b78b47f09ca3)
+![6](https://github.com/user-attachments/assets/b966fe09-cffa-4ef1-aabc-7dbf2726c5ff)
+![7](https://github.com/user-attachments/assets/43342abd-b909-49c4-bc75-f95dcad32e5c)
+![8](https://github.com/user-attachments/assets/27bbd9a2-ee92-4d22-a3a5-83a3a438730b)
+![9](https://github.com/user-attachments/assets/ea21dc70-3f88-444a-ad4d-68fcf381a2ca)
+![10](https://github.com/user-attachments/assets/23ab3639-1703-42d7-85a5-e76f7e311df9)
+![11](https://github.com/user-attachments/assets/4428cf34-9395-4f82-80f1-405765a95fde)
+![12](https://github.com/user-attachments/assets/8f881582-4266-4fa9-a53d-03c519bd701c)
+![13](https://github.com/user-attachments/assets/f5e3f258-a400-416f-87ab-b4f190425b90)
+![14](https://github.com/user-attachments/assets/89df5c67-5594-42ec-8951-0bd3e433d4ab)
+![15](https://github.com/user-attachments/assets/d5d8c9fd-e9f8-427d-95be-d943ba29bc4e)
+![16](https://github.com/user-attachments/assets/8b6ec10a-c8f4-44b0-9078-413b57d67791)
+![17](https://github.com/user-attachments/assets/f61db736-70f9-4bff-b954-446a1fd2226d)
+![18](https://github.com/user-attachments/assets/1151e940-f885-4ea7-ba19-633410ff5136)
+
 
 Please have a look at my Tableau workbook. https://public.tableau.com/views/TTDashboardProject/SuperstoresStoryofReturnRates?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 

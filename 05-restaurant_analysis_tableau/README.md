@@ -100,5 +100,10 @@ The data was spread across five files:
  The analysis of Zomato Restaurant data offers key insights into the factors affecting restaurant performance. It highlights that high customer ratings significantly boost order volumes, especially when ratings exceed 3.5, emphasizing the need for continuous efforts to enhance customer satisfaction. Revenue generation is influenced by strategic pricing, with success achieved either through high sales of lower-priced items or fewer sales of higher-priced ones. The findings also stress the importance of customer loyalty and effective menu strategies, noting that focused menus and specialized cuisines generally receive higher ratings and foster greater loyalty.
 
 Additionally, the study reveals that nationwide chains benefit from their extensive market presence, while regional strategies and seasonal promotions can further optimize performance. Future research should explore customer demographics, operational efficiency, and competitor performance to refine strategies and drive ongoing improvements.
+![1- overview dashboard](https://github.com/user-attachments/assets/16484c10-d79e-4433-a3d8-b55f86ecbc98)
+![2-Popularity analysis dashboard](https://github.com/user-attachments/assets/ba62f271-3e14-4e63-be45-915ee966730f)
+![3-Factor analysis dashboard](https://github.com/user-attachments/assets/f7130fa6-9290-466e-b139-e86bc25a4df5)
+![4- Cuisine and Menu Diversity Ratings analysis dashboard](https://github.com/user-attachments/assets/4a3cacea-6b23-45d2-b76e-498ce643751a)
+![5-conclusion](https://github.com/user-attachments/assets/3c5f6154-8a0b-4204-a0df-51df2bf8a2e6)
 
 Please have a look at my Tableau workbook: https://public.tableau.com/views/RestaurantAnalysis_17185382314290/PDFStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
